@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598777917282",
+    "project_id": "vipratech-363c1",
+    "storage_bucket": "vipratech-363c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598777917282:android:358296117951b8b408863b",
+        "android_client_info": {
+          "package_name": "com.example.vipratechuserauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598777917282-52tr4u0u71ec6hh9p9pgebe6ad2c7svg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB1kYKC3eoWmTghS7WEOWIJfEfdyIC7FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598777917282-52tr4u0u71ec6hh9p9pgebe6ad2c7svg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
