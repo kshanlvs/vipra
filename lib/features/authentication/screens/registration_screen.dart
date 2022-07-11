@@ -75,7 +75,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 style: const TextStyle(color: primaryColor, fontSize: 18),
                 recognizer: TapGestureRecognizer()
                   ..onTap = () {
-                    Navigator.pushNamed(context, RouteNames.loginPage);
+                    Navigator.pop(context, RouteNames.loginPage);
                   },
               )
             ],
@@ -98,7 +98,9 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                   LoadingIndicator.show(context);
                   regProvider.userModel = UserModel(
                       emailC.text, mobileC.text, nameC.text, passWC.text);
-                  if (await regProvider.signUp()) {}
+                  if (await regProvider.signUp()) {
+                    Navigator.pop(context);
+                  }
                   if (!mounted) return;
 
                   LoadingIndicator.close(context);
